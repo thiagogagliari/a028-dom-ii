@@ -16,7 +16,7 @@ function adicionaItem(event) {
     }
     newArticle.classList.add("item")
     newArticle.innerHTML = "Olá, Barbosa C"
-    main.appendChild(novoArticle)
+    main.appendChild(newArticle)
     newArticle.insertAdjacentElement("beforeend")
 }
 
